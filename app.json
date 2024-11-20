@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "meetandgreet",
+    "slug": "meetandgreet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lumornith.meetandgreet"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lumornith.meetandgreet"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c262de76-cbd1-4e17-9c48-5d64907ba55d"
+      }
+    },
+    "owner": "lumornith",
+    "updates": {
+      "url": "https://u.expo.dev/c262de76-cbd1-4e17-9c48-5d64907ba55d"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
